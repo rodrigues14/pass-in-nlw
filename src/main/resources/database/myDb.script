@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 1302
+SET FILES CHECK 1418
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -60,4 +60,7 @@ INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-checkins','SQL','
 INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__create-indexes.sql',1739851587,'SA','2024-04-01 22:37:31.140952',1,'1')
 INSERT INTO EVENTS VALUES('048e04a3-d3e4-406e-a4e4-96270b7d457c','Rocketseat NLW Unite','Aprenda v\u00e1rias tecnologias de forma gratuita!','rocketseat-nlw-unite',1000)
 INSERT INTO EVENTS VALUES('2304a043-7ab8-4276-8554-13e76db3778e','Rocketseat NLW','Aprenda Java de forma gratuita!','rocketseat-nlw',500)
+INSERT INTO EVENTS VALUES('cf75bc1f-fa92-440c-81c3-64186e51d45c','Rocketseat NLW Unite 2.0','Aprenda v\u00e1rias tecnologias de forma gratuita!','rocketseat-nlw-unite-20',1)
+INSERT INTO ATTENDEES VALUES('06c16cd7-051f-42a3-a522-b9dd0eed936d','Lucas Rodrigues','lucas@lucasrodrigues.com','cf75bc1f-fa92-440c-81c3-64186e51d45c','2024-04-04 12:04:29.978599')
 INSERT INTO ATTENDEES VALUES('2304a043-7ab8-4276-8554-13e76db3778e','Lucas Rodrigue','lucas@lucas.com','2304a043-7ab8-4276-8554-13e76db3778e',NULL)
+INSERT INTO ATTENDEES VALUES('91814c37-1bc4-4fa8-b87e-1e36ccb43584','Lucas Rodrigues','lucas@lucasrodrigues.com','2304a043-7ab8-4276-8554-13e76db3778e','2024-04-04 11:58:48.497139')
